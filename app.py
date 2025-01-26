@@ -44,7 +44,7 @@ st.write("Upload an image to detect emotions.")
 # Sidebar for information
 st.sidebar.title("About")
 st.sidebar.write("This app detects emotions from facial expressions using a deep learning model.")
-st.sidebar.write("Created by **Amr Elsherbiny**.")
+st.sidebar.write("Created by **Omar tharwat**.")
 
 # Upload image
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
@@ -67,7 +67,7 @@ if uploaded_file is not None:
 st.markdown(
     """
     <div style="text-align: center; margin-top: 50px;">
-        <p>Developed by <strong>Amr Elsherbiny</strong></p>
+        <p>Developed by <strong>Omar tharwat</strong></p>
         <p>© 2023 All rights reserved.</p>
     </div>
     """,
